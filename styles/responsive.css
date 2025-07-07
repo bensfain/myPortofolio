@@ -116,5 +116,29 @@
         font-size: 1.3rem;
     }
 
-    .pre-title{ font-size: 0.7rem;}
+    .pre-title{ 
+        font-size: 0.7rem;
+        
+    }
+    .section-title{
+        justify-content: center;
+    }
+
+    #portofolios .grid-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .main-container h3{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .portofolios  h1{
+        text-align: center;
+    }
+
+    h1.section-title{
+        margin-top: 20px;
+    }
+    
 }
